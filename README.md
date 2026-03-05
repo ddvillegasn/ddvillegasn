@@ -45,10 +45,10 @@ Me enfoco en el **desarrollo de software, automatización de procesos, inteligen
 ### Gemelo
 Bot de trading con estrategias automatizadas que incluye **backtesting y simulación histórica** para evaluar rendimiento antes de producción. En conjunto con compañero.
 
-https://github.com/AlejandroRuiz444/Gemelo
 
 ### ACY_BOTY
 Sistema modular de **backtesting y desarrollo de estrategias de trading** para el contrato E-mini S&P 500.
+
 https://github.com/ddvillegasn/ACY_BOTY.git
 ---
 
@@ -80,6 +80,7 @@ Proyecto web orientado a soluciones tecnológicas para empresas.
 
 ### Base distribuida
 Proyecto orientado al desarrollo de una **base de datos distribuida** utilizando entornos virtuales y arquitectura distribuida.
+
 https://github.com/ddvillegasn/Base_distribuida.git
 ---
 
@@ -87,6 +88,7 @@ https://github.com/ddvillegasn/Base_distribuida.git
 
 ### Medidino Recetas
 Módulo de gestión de recetas médicas dentro de un ecosistema de software clínico.
+
 https://github.com/ddvillegasn/Medidino_recetas.git
 ---
 
