@@ -1,5 +1,5 @@
 # 👨‍💻 Cesar David Villegas
-
+Backend developer focused on distributed systems, automation and AI-assisted development.
 Estudiante de **Ingeniería de Sistemas y Computación** en la Universidad Tecnológica de Pereira (UTP).
 
 Me enfoco en el **desarrollo de software, automatización de procesos, inteligencia artificial aplicada y construcción de soluciones tecnológicas**.
@@ -9,7 +9,7 @@ Me enfoco en el **desarrollo de software, automatización de procesos, inteligen
 ---
 
 # 🚀 Tecnologías
-
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ddvillegasn&show_icons=true&theme=tokyonight)
 ### Backend
 - Python
 - Flask
@@ -46,10 +46,9 @@ Me enfoco en el **desarrollo de software, automatización de procesos, inteligen
 Bot de trading con estrategias automatizadas que incluye **backtesting y simulación histórica** para evaluar rendimiento antes de producción. En conjunto con compañero.
 
 
-### ACY_BOTY
-Sistema modular de **backtesting y desarrollo de estrategias de trading** para el contrato E-mini S&P 500.
-
-https://github.com/ddvillegasn/ACY_BOTY.git
+### ACY_BOTY  
+Sistema modular de backtesting para investigación de estrategias algorítmicas.  
+Proyecto privado en desarrollo.
 ---
 
 ## Automatización
