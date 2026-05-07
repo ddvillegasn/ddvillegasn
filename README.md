@@ -181,7 +181,7 @@ Research on software quality and automated testing within the development lifecy
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ddvillegasn&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com/?user=ddvillegasn&theme=tokyonight&hide_border=true" />
 </div>
 
 ---
