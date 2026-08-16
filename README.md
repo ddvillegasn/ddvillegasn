@@ -1,206 +1,153 @@
-<!-- HEADER ANIMADO -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=28&duration=2800&pause=900&color=06B6D4&center=true&vCenter=true&width=700&lines=Hi%2C+I'm+Cesar+David+Villegas+%F0%9F%91%8B;Founder+%40+IntegraDav;Backend+Developer+%7C+AI+%7C+Automation;Systems+%26+Computing+Engineering+%40+UTP" alt="Typing SVG" />
-</div>
+# Cesar David Villegas Naranjo
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/cesarvn36">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:cesar.villegas@utp.edu.co">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://integradav.com">
-    <img src="https://img.shields.io/badge/IntegraDav-0f1f3d?style=for-the-badge&logo=globe&logoColor=white" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=ddvillegasn&style=for-the-badge&color=06B6D4&label=PROFILE+VIEWS" />
-</div>
+**Founder and General Manager at [INTEGRADAV](https://integradav.com)** — Pereira, Colombia
 
-<br/>
+I build the software that small and mid-sized companies in Colombia actually run on: AI agents that
+answer on WhatsApp, internal financial systems, and web products that have to keep working after the
+project ends. I lead a four-person team, and I still write and review the code.
+
+Final-year Systems and Computing Engineering at Universidad Tecnológica de Pereira.
 
 ---
 
-<!-- YAML BIO -->
-```yaml
-name: Cesar David Villegas
-location: Pereira, Risaralda, Colombia
-role: Founder & CEO @ IntegraDav · Backend Developer
-education: Systems and Computing Engineering — UTP (2022–Present)
-research: SONAR ISC Lab — Software Quality & Automated Testing
-award: 🏆 Winner — Public Innovation Challenge 2026 · Mayor's Office of Pereira
-focus:
-  - Backend Development (Python, Node.js, Django, Flask)
-  - AI-powered automation (OpenAI API, n8n, webhooks)
-  - Distributed systems & databases (Go, PostgreSQL)
-  - QA & Testing (Selenium, SonarQube, unit testing)
-languages: [Spanish (native), English (B2 Advanced)]
-availability: Open to internships & collaborations
-```
+## INTEGRADAV
+
+An automation, AI and software studio serving businesses across Colombia's Coffee Region. We take a
+client from the initial requirements session to a system in production — architecture, build,
+deployment and the operating documentation their team needs to run it without us in the room.
+
+My role is both sides of it: I own the technical architecture and I run the company — pricing,
+contracts, delivery process and the financial model.
+
+**Winner, Public Innovation Challenge 2026** — Mayor's Office of Pereira, Secretariat of Economic
+Development and Competitiveness, for **JOIN**, a civic PWA built with the UTP.
 
 ---
 
-## 🏢 IntegraDav — Digital Agency
+## Selected work
 
-> **10+ projects delivered · 8+ business clients · ⭐ 5.0 Google Reviews**
+Most of what I build is client or product work and lives in private repositories. What follows is
+what the systems do and how they are put together.
 
-I founded and lead [IntegraDav](https://integradav.com), a digital agency specialized in web development, AI automation and digital transformation for SMBs across the Coffee Region of Colombia.
+### Dental Agent — multi-tenant SaaS for dental clinics *(private)*
 
-**🏆 Winner of the Public Innovation Challenge 2026** — Project **JOIN**, recognized by the Secretary of Economic Development and Competitiveness of the Mayor's Office of Pereira, under the Science, Technology & Innovation Policy.
+A conversational AI agent that handles patient enquiries and scheduling over WhatsApp, with separate
+dashboards for the receptionist, the practitioner and the operator. Built on **LangGraph** for the
+agent's control flow, **FastAPI** with JWT auth and HMAC-verified webhooks, **Supabase/PostgreSQL**
+with row-level security for tenant isolation, and a **Next.js 15** admin panel. Containerised with
+Docker, deployed on Railway and Vercel with GitHub Actions.
 
-Alliances with **OnOff · Hecho en Pereira · Financial Game**
+Currently in pilot with a dental clinic in Bogotá.
 
----
+### INTEGRADAV Finance — internal financial operating system *(private)*
 
-## 🛠️ Tech Stack
+The system the company is actually run on: income, expenses, envelope-style budget allocation,
+runway, break-even and scenario planning. **React 19 + Vite + Firebase Auth/Firestore**, shipped as
+an installable PWA on Vercel.
 
-**Backend**
+The part I care about is the calculation engine — pure functions, no framework, no database, covered
+by a test suite validated against the spreadsheet model it replaced. Everything that touches money
+is written as a single atomic batch, so the ledger and the budget envelopes cannot drift apart.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+### Client platforms *(private)*
 
-**Frontend**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-**AI & Automation**
-
-![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Meta API](https://img.shields.io/badge/Meta_Cloud_API-0866FF?style=flat-square&logo=meta&logoColor=white)
-
-**Databases & Infrastructure**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+**Justicia y Valor** — website and organic SEO for a law firm; **Lifull** — Shopify storefront with
+3D product presentation and CRO work; plus the corporate site, built in Next.js and deployed on
+Netlify with a PR-and-preview review flow.
 
 ---
 
-## 🚀 Featured Projects
+## Public repositories
 
-### 🤖 WhatsApp AI Chatbot — IntegraDav
-> Full automated customer service system on WhatsApp
+### [footy-predictor](https://github.com/ddvillegasn/footy-predictor)
 
-Built with **Meta Cloud API + Node.js/Express + n8n + OpenAI**. Implements a conversation state machine (new → browsing → ordering → payment → support), HMAC SHA-256 signature validation, rate limiting and production deployment with Render + Nginx as reverse proxy. Delivered as a functional MVP in **1 day**.
+Predicts international football matches with a **Dixon-Coles** time-decayed Poisson model and Monte
+Carlo simulation, then prices betting markets from the resulting score distribution.
 
-`Node.js` `Express` `Meta Cloud API` `OpenAI` `n8n` `Nginx` `Render`
+The engineering decision I would point to is that nothing is hardcoded: the time-decay factor, the
+ridge penalty, home advantage, simulation count, market lines and value thresholds all come from
+YAML config, so the model can be re-tuned without touching code. The README also states plainly what
+the outputs are *not* — `expected_goals` is the model's λ, not shot-based xG, and the expected-value
+figures are only as good as the model that produced them. A predictor that oversells its own
+certainty is worse than no predictor.
 
----
+`Python` · `pandas` · `NumPy` · `SciPy` · `Streamlit`
 
-### 📈 ACY_BOTY — Algorithmic Trading Backtesting Engine
-> Modular Python system for trading strategy research
+### [aco-tsp-python](https://github.com/ddvillegasn/aco-tsp-python)
 
-Designed to evaluate trading strategies on historical financial market data. Processed over **2.8 million historical records**, generating performance, return and risk metrics. Scalable architecture allows adding new strategies without modifying the core engine.
+Ant Colony Optimization applied to the Travelling Salesman Problem, with an interactive lab for
+tuning α, β, ρ and Q while watching the pheromone network and convergence curve respond in real
+time. Modular package with dataclasses and type hints, and a test suite that checks the properties
+that actually matter for a metaheuristic: every solution is a valid Hamiltonian cycle, the pheromone
+matrix stays symmetric, the best-so-far curve is monotonically non-increasing, and a reference
+instance resolves to its known length.
 
-`Python` `Pandas` `NumPy` `Financial analysis`
+`Python` · `Streamlit` · `pytest` — with [Valentina Rosas](https://github.com/valenrosasc)
 
-🔗 [Repository](https://github.com/ddvillegasn/ACY_BOTY)
+### [distributed-kv-go](https://github.com/ddvillegasn/distributed-kv-go)
 
----
+A sharded key-value store deployed across separate machines on a LAN: hash-based partitioning,
+automatic redirection to the owning node, and read-only replicas that pull from their leader.
+University coursework, built on top of an existing open-source engine — the README says exactly
+which parts are ours and which are not.
 
-### 🧮 Boolean Function Minimizer — McCluskey
-> Desktop app implementing the Quine-McCluskey algorithm
-
-Minimizes Boolean functions from minterms: binary conversion, grouping by number of ones, iterative combination and extraction of essential prime implicants. Includes a Tkinter GUI that outputs the simplified Boolean expression, reducing required logic gates.
-
-`Python` `Tkinter` `Algorithms` `Boolean logic`
-
-🔗 [Repository](https://github.com/ddvillegasn/mccluskey-simplificador)
-
----
-
-### 🎮 Planet Defender — 2D Video Game
-> Complete game loop built with Pygame and OOP
-
-Spaceship control, shooting system, meteorite collision detection, power-ups, sprite rendering (.jpg/.png), sound effects (.mp3) and background music. Implemented following object-oriented programming principles.
-
-`Python` `Pygame` `OOP` `Game Dev`
-
-🔗 [Repository](https://github.com/ddvillegasn/planet-defender)
+`Go` · `bbolt` · `TOML`
 
 ---
 
-### 🏥 Vitalis — Medical Management Platform
-> Multi-role web platform for healthcare environments
+## How I approach engineering
 
-Built with Django + Flask. Manages patients, doctors, prescriptions and incapacity records across clinics and enterprises. Role-based access control, PDF uploads, dashboards and report generation.
+**Make the wrong state impossible to reach, rather than detecting it later.** Two related writes
+belong in one transaction. If a repair operation can run twice, it has to be idempotent — I have
+seen a non-idempotent fix applied twice and silently double a set of balances.
 
-`Django` `Flask` `PostgreSQL` `Bootstrap`
+**Security lives in the rules layer, never in the interface.** Hiding a button is not a permission.
+If the database will accept the write, the feature is not protected.
 
-🔗 [Repository](https://github.com/ddvillegasn/de-vitalis-clinicas)
+**Configuration over constants.** Prices in another currency, model parameters, business
+percentages — anything that changes on a different clock than the code belongs in config, with one
+place to update it.
 
----
+**Write down the decision, not just the result.** Every system I maintain carries a record of what
+was decided and why, so the next person — often me, months later — does not undo it by accident.
 
-### 🗄️ Distributed Database System
-> Distributed database in Go with multi-node architecture
-
-Implements data synchronization between nodes and fault tolerance. Academic project exploring distributed systems concepts at UTP.
-
-`Go` `Distributed systems` `Fault tolerance`
-
-🔗 [Repository](https://github.com/ddvillegasn/Base_distribuida)
-
----
-
-## 🔬 Research
-
-**SONAR ISC Research Lab** — Universidad Tecnológica de Pereira *(2024 – Present)*
-
-Research on software quality and automated testing within the development lifecycle:
-- **Selenium** for automated UI testing
-- **SonarQube** for static code analysis and vulnerability detection
-- Unit & integration testing under **Scrum** and DevOps practices
+**State the limits of what you built.** A model with a confidence figure, an AI agent that needs
+human supervision, a replica that can serve stale reads: naming the boundary is part of delivering
+the thing.
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ddvillegasn&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ddvillegasn&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=ddvillegasn&theme=tokyonight&hide_border=true" />
-</div>
-
----
-
-## 📫 Contact
-
-<div align="center">
+## Stack
 
 | | |
 |---|---|
-| 🔗 **LinkedIn** | [linkedin.com/in/cesarvn36](https://www.linkedin.com/in/cesarvn36) |
-| 📧 **Email** | cesar.villegas@utp.edu.co |
-| 🌐 **Company** | [integradav.com](https://integradav.com) |
-| 📍 **Location** | Pereira, Risaralda, Colombia |
-
-</div>
+| **Languages** | Python, JavaScript/TypeScript, Go, SQL |
+| **Backend** | FastAPI, Node.js/Express, Django, Flask, REST APIs, JWT, webhooks |
+| **Frontend** | React, Next.js (App Router), Tailwind, Vite |
+| **AI & automation** | LangGraph, Claude API, OpenAI API, WhatsApp Cloud API, n8n |
+| **Data** | PostgreSQL, Supabase, Firestore, SQLite, pandas, NumPy |
+| **Infrastructure** | Docker, GitHub Actions, Vercel, Railway, Netlify, Nginx |
+| **Quality** | pytest, Selenium, SonarQube, unit and integration testing |
 
 ---
 
-<div align="center">
-  <i>Open to internship opportunities in backend development, AI automation and software quality.</i>
-</div>
+## Background
+
+**Universidad Tecnológica de Pereira** — Systems and Computing Engineering, final year.
+
+**SONAR ISC research group** — software quality and automated testing: Selenium for UI test
+automation, SonarQube for static analysis and vulnerability detection, unit and integration testing
+under Scrum and DevOps practice.
+
+---
+
+## Contact
+
+| | |
+|---|---|
+| Company | [integradav.com](https://integradav.com) |
+| Email | contacto@integradav.com |
+| LinkedIn | [linkedin.com/in/cesarvn36](https://www.linkedin.com/in/cesarvn36) |
+| Location | Pereira, Risaralda, Colombia |
+
+Open to technical collaboration, partnerships and interesting problems.
