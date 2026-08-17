@@ -59,7 +59,7 @@ Netlify with a PR-and-preview review flow.
 
 ## Public repositories
 
-### [footy-predictor](https://github.com/ddvillegasn/footy-predictor)
+### [footy-predictor](https://github.com/ddvillegasn/footy-predictor) · [▶ live demo](https://footy-predictor.streamlit.app/)
 
 Predicts international football matches with a **Dixon-Coles** time-decayed Poisson model and Monte
 Carlo simulation, then prices betting markets from the resulting score distribution.
